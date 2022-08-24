@@ -1,0 +1,14 @@
+apiVersion: skaffold/v2beta29
+kind: Config
+metadata:
+  name: spring-kafka-pubsub
+build:
+  artifacts:
+  - image: spring-kafka-pubsub
+    jib: {}
+deploy:
+  kubectl:
+    manifests:
+    - deployment.yaml
+    - postgresql.yaml
+    - kafka.yaml

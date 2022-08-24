@@ -6,7 +6,7 @@
 - [Docker](https://www.docker.com/)
 - [Skaffold](https://skaffold.dev/)
 - [Slack](https://slack.com/beta/mac)
-- [BotKube](https://botkube.io/
+- [BotKube](https://botkube.io/)
 
 ## How to Run
 Once you have minikube installed, you can go to root folder of this project and execute `skaffold dev`.
